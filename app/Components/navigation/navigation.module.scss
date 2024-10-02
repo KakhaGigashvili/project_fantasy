@@ -1,0 +1,78 @@
+@import '../../color.scss';
+
+.navigation{
+    display: flex;
+    background-color: $H-bg;
+    height: 50px;
+    font-weight: 800;
+    
+    ul{
+        list-style: none;  
+    }
+}
+
+.link{
+    text-decoration: none;
+    color: $buz;
+    
+    &:hover{
+        color: $buz-h;
+        cursor: pointer;
+    }
+}
+
+.main_nav {
+    display: flex;
+    align-items: center;
+    color: $buz;
+    gap: 20px;
+}
+.navigation ul li:hover {
+    color: $buz-h;
+    cursor: pointer;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    color: $buz;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.img{
+    cursor: pointer;
+    height: 50px;
+}
+
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown_menu {
+    position: absolute;
+    top: 20px; 
+    background-color: $H-bg;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.dropdown_menu li {
+    margin: 5px 0;
+}
+
+.dropdown_menu li {
+    color: $buz;
+    
+    &:hover{
+        color: $buz-h;
+        cursor: pointer;
+    }
+}

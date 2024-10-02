@@ -1,0 +1,30 @@
+@import '../../color.scss';
+
+.blog{
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 0 10px 10px 10px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: $H-bg;
+    background-image: linear-gradient($H-bg, $dark);
+    box-sizing: border-box;
+    cursor: pointer;
+    overflow: hidden;
+
+    h1{
+        text-align: center;
+
+        &:hover{
+            color: $sun;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}
+
+.link{
+    color: $sun;
+    text-decoration: none;
+}

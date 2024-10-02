@@ -1,0 +1,87 @@
+@import '../../color.scss';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 93vh;
+    background-color: $main-b;
+}
+
+.form_container {
+    background: $sld;
+    border: 1px solid $h1-C;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    height: 650px;
+}
+
+.input {
+    background-color: $hov !important;
+    border: 1px solid $buz !important;
+    color: $h1-C !important;
+
+    &:hover {
+        background-color: $main-b !important;
+    }
+
+    &:focus,
+    &:active {
+        background-color: $hov !important;
+    }
+}
+
+.ant-btn {
+    background-color: $hov;
+    border: 1px solid $buz;
+    color: $h1-C;
+
+    &:hover {
+        background-color: $main-b;
+    }
+
+    &:active {
+        background-color: $main-b;
+    }
+}
+
+.background {
+    background-image: url(../../../public/images/cthulhu.jfif);
+    width: 550px;
+    height: 650px;
+    border-radius: 8px;
+    border: 1px solid $h1-C;
+}
+.left_background{
+    background-image: url(../../../public/images/dedgod.jfif);
+    width: 540px;
+    height: 650px;
+    border-radius: 8px;
+    border: 1px solid $h1-C;
+}
+
+.middle_background{
+    background-image: url(../../../public/images/land.jfif);
+    width: auto;
+    height: 330px;
+    border-radius: 8px;
+    border: 1px solid $h1-C;
+}
+
+.form_item{
+    
+    .input {
+        background-color: $hov;
+        border: 1px solid $buz;
+        color: $h1-C;
+        height: 35px;
+        width: 300px;
+    }
+}
+
+.button{
+    margin-left: 215px;
+}

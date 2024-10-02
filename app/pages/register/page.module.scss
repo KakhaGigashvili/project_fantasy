@@ -1,0 +1,35 @@
+@import '../../color.scss';
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    border: 1px solid black;
+    border: 8px;
+    background-image: linear-gradient($H-bg, $main-b, $sld, $blackish);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.left{
+    position: relative;
+    width: 600px; 
+    height: 624px;
+    background-image: url(../../../public/images/tower.jpeg);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.right{
+    width: 550px; 
+    height: 624px;
+    margin-top: 20px;
+    background-image: url(../../../public/images/Castle.jpeg);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}

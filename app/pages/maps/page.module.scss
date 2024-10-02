@@ -1,0 +1,33 @@
+@import '../../color.scss';
+
+.maps{
+    display: flex;
+    border-radius: 8px;
+    margin: 10px;
+
+    img{
+        width: 50%;
+        height: auto;
+        border-radius: 8px;
+    }
+}
+
+.description{
+    border-radius: 8px;
+    background-color: $buz;
+
+    h2{
+        margin: 10px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.589);
+        border-radius: 8px;
+        color: $sun;
+    }
+    
+    p{
+        margin: 10px;
+        font-size: 20px;
+        color: $paragrph;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,28 @@
+@import '../../color.scss';
+
+.container{
+    padding: 14px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    will-change: transform;
+}
+
+.fill{
+    background-color: $b-button;
+    color: $c-button;
+
+    &:hover{
+        background-color: $h-button;
+    }
+}
+
+.outline{
+    background-color: $c-button;
+    border: 1px solid $dark;
+    color: $b-button;
+
+    &:hover{
+        background-color: $smoke;
+    }
+}

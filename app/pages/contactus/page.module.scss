@@ -1,0 +1,81 @@
+@import '../../color.scss';
+
+.container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 93vh;
+    background-color: $main-b;
+}
+
+.contactus{
+    background-color: $buz;
+    padding: 5px;
+    border-radius: 12px;
+    margin-left: 15px;
+    margin-top: 50px;
+    font-size: 16px;
+
+    input{
+        height: 35px;
+        width: 300px;
+        border: 1px solid $dark !important;
+        border-radius: 8px;
+        background-color: $p-p;
+        box-shadow: 3px 5px black;
+        border: 1px solid $blackish;
+        color: $smoke;
+
+        &:focus,
+        &:active{
+            background-color:$p-p;
+            border: 1px solid $blackish !important;
+            border-radius: 8px;
+        }
+    }
+
+    h4{
+        color: $sun;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}
+
+.textarea{
+    width: 500px;
+    height: 300px;
+    max-width: 500px;
+    max-height: 300px;
+    border-radius: 12px;
+    background-color: $p-p;
+    box-shadow: 3px 5px black;
+    border: 1px solid $blackish !important;
+    color: $y-yellow;
+    font-size: 18px;
+    background-image: url(../../../public/images/logo-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &:focus,
+    &:active{
+            background-color:$p-p;
+            border: 1px solid $blackish !important;
+        }
+}
+
+.background{
+    display: flex;
+    margin-left: 10px;
+    width: 970px;
+    height: 550px;
+    margin-bottom: 100px;
+    border-radius: 12px;
+    background-image: url(../../../public/images/icon.jpg);
+}
+
+.button{
+    display: flex;
+    margin: 15px 0 5px 380px;
+}

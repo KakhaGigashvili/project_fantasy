@@ -1,0 +1,12 @@
+@import '../../color.scss';
+
+.link{
+    color: $dark;
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
